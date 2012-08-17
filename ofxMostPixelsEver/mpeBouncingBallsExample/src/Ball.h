@@ -8,8 +8,8 @@ class Ball {
 		Ball(float _x, float _y, float _mWidth, float _mHeight) {
             x = _x;
             y = _y;
-            xDir = ofRandom(-5, 5);
-            yDir = ofRandom(-5, 5);
+            xDir = ofRandom(-50, 50);
+            yDir = ofRandom(-50, 50);
             d = 10;
             mWidth  = _mWidth;
             mHeight = _mHeight;
